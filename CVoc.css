@@ -3,18 +3,20 @@
 body
 {
     font-family: 'nimbus sans L';
-    width: 100%;
-    height: 200%;
     color:antiquewhite;
+    background-color:darkslategrey;
 }
 
-#diplome
+#diplome, #info
 {
-    width: 63%;
-    height: 200%;
-    border: 1px solid #396882;
+    border: 1px solid white;
     background-color: antiquewhite;
     color: #4a4a4a;
+}
+
+#info p
+{
+    color:antiquewhite;
 }
 
 #diplome div
@@ -36,23 +38,17 @@ body
 
 #info
 {
-   width: 30%;
-    height: 200%;
+    width: 32%;
     background-color: #396882;
     text-align: justify;
     text-align: center;
-    border: 1px solid #396882;
+    border: 1px solid white;
     margin-left: 5%;
 }
 
 #contenair
 {
     display: flex;
-}
-
-p
-{
-    overflow: hidden;
 }
 
 /* GAUCHE */
@@ -163,11 +159,9 @@ i
 .paragraphe1
 {
     text-align: justify;
-    padding-left: 50px;
-    position: absolute;
     margin-top: 40px;
     margin-left: 77px;
-    margin-right: 50px
+    float: left;
 }
 
 .open
@@ -207,12 +201,10 @@ i
 
 .html
 {
+    display: inline-flex;
     text-align: justify;
     padding-left: 50px;
-    position: absolute;
-    margin-top: 85px;
-    margin-left: 74px;
-    margin-right: 50px
+    margin-right: 50px;
 }
 
 .toulouse
@@ -362,12 +354,10 @@ ul
 
 .recommand
 {
-    width: 300%;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    display: flex;
 }
-
-.recommand .premier
+.premier
 {
-    float: left;
-    margin-right: 200px;
+    margin-right: 35%;
 }
