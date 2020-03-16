@@ -10,9 +10,8 @@ body
 
 #diplome
 {
-    width: 55%;
+    width: 63%;
     height: 170%;
-    margin-right: 0;
     border: 1px solid #396882;
     background-color: antiquewhite;
     color: #4a4a4a;
@@ -31,19 +30,19 @@ body
 
 #icone
 {
-    margin-left: 14%;
+    margin-left: 25px;
     margin-top: 5%;
 }
 
 #info
 {
    width: 30%;
-    height: 170%;
+    height: 200%;
     background-color: #396882;
     text-align: justify;
     text-align: center;
     border: 1px solid #396882;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 #contenair
@@ -51,11 +50,16 @@ body
     display: flex;
 }
 
+p
+{
+    overflow: hidden;
+}
+
 /* GAUCHE */
 .me
 {
     margin: 25px 10px 10px 10px;
-    width:170px;
+    width: 170px;
     height: 170px;
 }
 
@@ -80,33 +84,15 @@ body
 
 .loisir h3
 {
-    margin-top: 80%;
+    margin-top: 87.5%;
 }
 
-article
-{
-    margin-top: 40px;
-    margin-left: 27px;
-}
-#basket
+#imgplaisir
 {
     border: 3px solid white;
     border-radius: 50%;
     padding: 15px;
-}
-
-#console
-{
-    border: 3px solid white;
-    border-radius: 50%;
-    padding: 15px;
-}
-
-#ordi
-{
-    border: 3px solid white;
-    border-radius: 50%;
-    padding: 15px;
+    margin-bottom: 10px;
 }
 
 /* DROITE */
@@ -377,6 +363,7 @@ ul
 .recommand
 {
     width: 300%;
+    margin-bottom: 30px
 }
 
 .recommand .premier
