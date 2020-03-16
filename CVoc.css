@@ -87,7 +87,7 @@ body
 {
     border: 3px solid white;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
@@ -134,16 +134,9 @@ span
     font-size: 22px;
 }
 
-
 #diplome li
 {
     display: flex
-}
-
-li
-{
-    list-style: circle;
-    color: #396882;
 }
 
 i
@@ -151,44 +144,42 @@ i
     margin-right: 30px
 }
 
-.formation ol
+.formation1
 {
-    display: inline-block;
+     text-align: justify;
+    padding-right: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
-.paragraphe1
+.formation2
 {
     text-align: justify;
-    margin-top: 40px;
-    margin-left: 77px;
-    float: left;
+    padding-right: 100px;
+    margin-top: 30px;
+    margin-left: 11.5px;
 }
-
 .open
 {
     font-weight: bold;
     font-size: 16px;
-    margin-left: 42px;
     color: #4a4a4a;
 }
 
 .date
 {
     font-weight: bold;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    margin-bottom: 55px;
     color: #4a4a4a;
+    margin-top: 30px;
+    padding-right: 20px;
 }
 
 .tarbes
 {
     font-weight: bold;
-    margin-right: 57px;
     margin-bottom: 30px;
-    margin-top: 5px;
     color: #4a4a4a;
-    margin-top: 50px;
 }
 
 .udemy
@@ -196,21 +187,17 @@ i
     font-weight: bold;
     font-size: 16px;
     color: #4a4a4a;
-    margin-top: 50px;
 }
 
 .html
 {
-    display: inline-flex;
-    text-align: justify;
-    padding-left: 50px;
-    margin-right: 50px;
+   text-align: justify;
+    padding-right: 50px;
 }
 
 .toulouse
 {
     font-weight: bold;
-    margin-right: 56px;
     margin-bottom: 30px;
     margin-top: 30px;
     color: #4a4a4a;
