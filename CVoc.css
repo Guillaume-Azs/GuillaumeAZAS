@@ -1,0 +1,385 @@
+/* GENERAL */
+
+body
+{
+    font-family: 'nimbus sans L';
+    width: 1390px;
+    height: 1443px;
+    color:antiquewhite;
+}
+section
+{
+    position: absolute;
+}
+
+#diplome
+{
+    margin-left: 552px;
+    width: 750px;
+    height: 1343px;
+    border: 1px solid #396882;
+    background-color: antiquewhite;
+    color: #4a4a4a;
+}
+
+#diplome div
+{
+    margin-left: 40px;
+}
+
+.icones
+{
+    font-size: 2em;
+    color: white;
+}
+
+#icone
+{
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+/* GAUCHE */
+.me
+{
+    margin: 25px 10px 10px 10px;
+    width:170px;
+    height: 170px;
+}
+
+#info
+{
+    width: 382px;
+    height: 1343px;
+    background-color: #396882;
+    text-align: justify;
+    text-align: center;
+    border: 1px solid #396882;
+    margin-left: 170px;
+}
+
+#info h3
+{
+    background-color: antiquewhite;
+    color: #396882;
+    font-family: 'open sans'
+}
+
+#info p
+{
+    text-align: left;
+    margin: 20px 10px 20px 10px;
+    margin-left: 25px;
+}
+
+.moi h3
+{
+    margin-top: 60px
+}
+
+.loisir h3
+{
+    margin-top: 340px
+}
+
+article
+{
+    margin-top: 40px;
+    margin-left: 27px;
+}
+#basket
+{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#console
+{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#ordi
+{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* DROITE */
+
+h1
+{
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+span
+{
+    color:#396882;
+}
+
+.nom
+{
+    color: #4a4a4a;
+    font-weight: normal;
+}
+
+.titre h3
+{
+    margin-top: 0;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.ligne
+{
+    border-bottom: 2px solid #396882;
+    color: #4a4a4a;
+}
+
+.fond
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+
+#diplome li
+{
+    display: flex
+}
+
+li
+{
+    list-style: circle;
+    color: #396882;
+}
+
+i
+{
+    margin-right: 30px
+}
+
+.formation ol
+{
+    display: inline-block;
+}
+
+.paragraphe1
+{
+    text-align: justify;
+    padding-left: 50px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 77px;
+    margin-right: 50px
+}
+
+.open
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 42px;
+    color: #4a4a4a;
+}
+
+.date
+{
+    font-weight: bold;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #4a4a4a;
+}
+
+.tarbes
+{
+    font-weight: bold;
+    margin-right: 57px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    color: #4a4a4a;
+    margin-top: 50px;
+}
+
+.udemy
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-top: 50px;
+}
+
+.html
+{
+    text-align: justify;
+    padding-left: 50px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 74px;
+    margin-right: 50px
+}
+
+.toulouse
+{
+    font-weight: bold;
+    margin-right: 56px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #4a4a4a;
+}
+
+.creps
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-top: 28px;
+}
+
+.bpjeps
+{
+    text-align: justify;
+    padding-left: 50px;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 74px;
+    margin-right: 50px
+}
+
+.montrejeau
+{
+    font-weight: bold;
+    margin-right: 43px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #4a4a4a;
+}
+
+.educ
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.entraineur
+{
+    text-align: justify;
+    padding-left: 90px;
+    position: absolute;
+    margin-left: 38px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.saint-gau
+{
+    font-weight: bold;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    color: #4a4a4a;
+}
+
+.anim
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-top: 45px;
+}
+
+.ecole
+{
+    text-align: justify;
+    padding-left: 90px;
+    position: absolute;
+    margin-left: 38px;
+    margin-right: 50px;
+    margin-top: 85px;
+}
+
+.st-gau
+{
+    font-weight: bold;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    color: #4a4a4a;
+}
+
+.educa
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-top: 45px;
+}
+
+.direction
+{
+    text-align: justify;
+    padding-left: 90px;
+    position: absolute;
+    margin-left: 39px;
+    margin-right: 50px;
+    margin-top: 85px;
+}
+
+ul
+{
+    margin-top: 40px
+}
+.formation h3
+{
+    border-bottom: 2px solid #396882;
+    margin-right: 40px;
+}
+
+.experience h3
+{
+    border-bottom: 2px solid #396882;
+    margin-right: 40px;
+}
+
+.premier
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #396882;
+}
+
+.second
+{
+    margin-left: 40px;
+    color: #396882;
+    margin-top: 0;
+   padding-top: 50px
+}
+
+.fond
+{
+    margin-top: 60px;
+    border-bottom: 2px solid #396882;
+    margin-right: 40px;
+}
+
+.recommand
+{
+    width: 600px;
+}
+
+.recommand .premier
+{
+    float: left;
+    margin-right: 200px;
+}
