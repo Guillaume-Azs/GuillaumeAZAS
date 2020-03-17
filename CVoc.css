@@ -8,11 +8,19 @@ body {
 
 #diplome,
 #info {
-    border: 1px solid white;
     background-color: antiquewhite;
     color: #4a4a4a;
 }
-
+#diplome
+{
+    border: 2px solid black;
+}
+#info
+{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
 #info p {
     color: antiquewhite;
 }
@@ -40,7 +48,6 @@ body {
     background-color: #396882;
     text-align: justify;
     text-align: center;
-    border: 1px solid white;
 }
 
 #contenair {
@@ -58,6 +65,8 @@ body {
     background-color: antiquewhite;
     color: #396882;
     font-family: 'open sans';
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 
 #info p {
@@ -256,7 +265,7 @@ li i {
      .information
     {
         background-color: #396882;
-        margin-top: 215.5%;
+        margin-top: 212%;
     }
     #contenair
     {
@@ -323,7 +332,7 @@ li i {
     }
     .information
     {
-        margin-top: 225.8%
+        margin-top: 225%
     }
 }
 
@@ -343,7 +352,7 @@ li i {
     }
     .information
     {
-        margin-top: 256%
+        margin-top: 255.5%
     }
     
 }
@@ -364,7 +373,7 @@ li i {
     }
     .information
     {
-        margin-top: 283.7%
+        margin-top: 276.5%
     }
     .formation2
     {
@@ -388,7 +397,7 @@ li i {
     }
     .information
     {
-        margin-top: 379%
+        margin-top: 374.5%;
     }
     .formation2
     {
