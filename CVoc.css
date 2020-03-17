@@ -230,7 +230,7 @@ li i {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 1024px)
 {
     .me
     {
@@ -241,7 +241,7 @@ li i {
     }
     body
     {
-        width: 700px;
+        width: 1000px;
     }
     .titre h3
     {
@@ -260,12 +260,12 @@ li i {
         border: 2px solid black;
         position: absolute;
         margin-top: 230px;
-        width: 660px;
+        width: 1000px;
     }
      .information
     {
         background-color: #396882;
-        margin-top: 212%;
+        margin-top: 137%;
     }
     #contenair
     {
@@ -279,7 +279,7 @@ li i {
  
     #info
     {
-        width: 660px;
+        width: 1000px;
         position: absolute;
         background-color: #396882;
     }
@@ -298,23 +298,27 @@ li i {
     }
    .premier
     {
-        margin-right: 20px
+        margin-right: 250px;
     }
-    .entraineur2
+    .entraineur3
     {
         margin-left: 15px
     }
+    #info p
+    {
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 950px)
 {
     body
     {
-        width: 630px
+        width: 900px
     }
     #diplome
     {
-        width: 630px;
+        width: 880px;
     }
     .titre h1
     {
@@ -328,76 +332,125 @@ li i {
     }
     #info
     {
-        width: 630px;
+        width: 880px;
     }
     .information
     {
-        margin-top: 225%
+        margin-top: 154%
+    }
+      .entraineur2
+    {
+        margin-left: 19px;
     }
 }
 
-@media screen and (max-width: 630px)
+@media screen and (max-width: 830px)
 {
     body
     {
-        width: 580px;
+        width: 800px;
     }
     #diplome
     {
-        width: 580px;
+        width: 790px;
     }
     #info
     {
-        width: 580px;
+        width: 790px;
     }
     .information
     {
-        margin-top: 255.5%
+        margin-top: 171.5%;
     }
-    
+    .entraineur2
+    {
+        margin-left: 19px;
+    }
 }
 
-@media screen and (max-width: 570px)
+@media screen and (max-width: 750px)
 {
     body
     {
-        width: 550px;
+        width: 730px;
     }
     #diplome
     {
-        width: 550px;
+        width: 715px;
     }
     #info
     {
-        width: 550px;
+        width: 715px;
     }
     .information
     {
-        margin-top: 276.5%
+        margin-top: 189.5%
     }
     .formation2
     {
-        margin-left: 65px
+        margin-left: 50px
+    }
+    .premier
+    {
+        margin-right: 120px
     }
 }
 
-@media screen and (max-width: 530px)
+@media screen and (max-width: 690px)
 {
     body
     {
-        width: 480px;
+        width: 680px;
     }
     #diplome
     {
-        width: 480px;
+        width: 670px;
     }
     #info
     {
-        width: 480px;
+        width: 670px;
+    }
+    .formation2
+    {
+        margin-left: 50px
+    }
+    .formation h3,
+.experience h3,
+.recommandation h3
+    {
+        margin-left: 0
+    }
+    i
+    {
+        margin-right: 13px
+    }
+    p
+    {
+        text-align: left;
+    }
+    .premier
+    {
+        margin-left: 5px
     }
     .information
     {
-        margin-top: 374.5%;
+        margin-top: 206%
+    }
+}
+
+@media screen and (max-width: 590px)
+{
+    body
+    {
+        width: 580px;
+    }
+    #diplome
+    {
+        width: 570px;
+    }
+    #info
+    {
+        width: 570px;
     }
     .formation2
     {
@@ -423,6 +476,47 @@ li i {
     }
     .information
     {
-        margin-top: 365.5%
+        margin-top: 260%
+    }
+}
+@media screen and (max-width: 550px)
+{
+    body
+    {
+        width: 510px;
+    }
+    #diplome
+    {
+        width: 500px;
+    }
+    #info
+    {
+        width: 500px;
+    }
+    .formation2
+    {
+        margin-left: 65px
+    }
+    .formation h3,
+.experience h3,
+.recommandation h3
+    {
+        margin-left: 0
+    }
+    i
+    {
+        margin-right: 13px
+    }
+    p
+    {
+        text-align: left;
+    }
+    .premier
+    {
+        margin-left: 5px
+    }
+    .information
+    {
+        margin-top: 347%
     }
 }
