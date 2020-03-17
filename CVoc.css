@@ -24,11 +24,15 @@ body {
 .icones {
     font-size: 2em;
     color: white;
+    margin-left: 16px;
+    margin-top: 5%;
 }
 
-#icone {
-    margin-left: 25px;
-    margin-top: 5%;
+#imgplaisir {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 #info {
@@ -54,7 +58,7 @@ body {
 #info h3 {
     background-color: antiquewhite;
     color: #396882;
-    font-family: 'open sans'
+    font-family: 'open sans';
 }
 
 #info p {
@@ -63,19 +67,9 @@ body {
     margin-left: 25px;
 }
 
-.moi h3 {
-    margin-top: 60px
-}
-
-.loisir h3 {
-    margin-top: 100%;
-}
-
-#imgplaisir {
-    border: 3px solid white;
-    border-radius: 50%;
-    padding: 10px;
-    margin-bottom: 10px;
+.loisir
+{
+    margin-top: 110%;
 }
 
 /* DROITE */
@@ -110,7 +104,7 @@ span {
 }
 
 #diplome li {
-    display: flex
+    display: flex;
 }
 
 i {
