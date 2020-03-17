@@ -403,4 +403,26 @@ li i {
     {
         margin-left: 65px
     }
+    .formation h3,
+.experience h3,
+.recommandation h3
+    {
+        margin-left: 0
+    }
+    i
+    {
+        margin-right: 13px
+    }
+    p
+    {
+        text-align: left;
+    }
+    .premier
+    {
+        margin-left: 5px
+    }
+    .information
+    {
+        margin-top: 365.5%
+    }
 }
