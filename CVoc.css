@@ -230,7 +230,7 @@ li i {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1280px)
 {
     .me
     {
@@ -241,7 +241,7 @@ li i {
     }
     body
     {
-        width: 1000px;
+        width: 0;
     }
     .titre h3
     {
@@ -260,17 +260,16 @@ li i {
         border: 2px solid black;
         position: absolute;
         margin-top: 230px;
-        width: 1000px;
+        width: 1250px;
     }
      .information
     {
         background-color: #396882;
-        margin-top: 139%;
+        margin-top: 106.5%;
     }
     #contenair
     {
         display: flex;
-        position: absolute;
     }
     #info, #diplome
     {
@@ -279,7 +278,7 @@ li i {
  
     #info
     {
-        width: 1000px;
+        width: 1250px;
         position: absolute;
         background-color: #396882;
     }
@@ -302,7 +301,8 @@ li i {
     }
     .entraineur3
     {
-        margin-left: 15px
+        padding-left: 0px;
+        margin-left: 20px;
     }
     #info p
     {
@@ -310,15 +310,15 @@ li i {
     }
 }
 
-@media screen and (max-width: 950px)
+@media screen and (max-width: 1024px)
 {
     body
     {
-        width: 900px
+        width: 0
     }
     #diplome
     {
-        width: 880px;
+        width: 1000px;
     }
     .titre h1
     {
@@ -332,11 +332,11 @@ li i {
     }
     #info
     {
-        width: 880px;
+        width: 1000px;
     }
     .information
     {
-        margin-top: 154%
+        margin-top: 135%
     }
       .entraineur2
     {
@@ -344,23 +344,23 @@ li i {
     }
 }
 
-@media screen and (max-width: 830px)
+@media screen and (max-width: 930px)
 {
     body
     {
-        width: 800px;
+        width: 0;
     }
     #diplome
     {
-        width: 790px;
+        width: 900px;
     }
     #info
     {
-        width: 790px;
+        width: 900px;
     }
     .information
     {
-        margin-top: 171.5%;
+        margin-top: 150%;
     }
     .entraineur2
     {
@@ -368,23 +368,23 @@ li i {
     }
 }
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 850px)
 {
     body
     {
-        width: 730px;
+        width: 0;
     }
     #diplome
     {
-        width: 715px;
+        width: 810px;
     }
     #info
     {
-        width: 715px;
+        width: 810px;
     }
     .information
     {
-        margin-top: 189.5%
+        margin-top: 167%
     }
     .formation2
     {
