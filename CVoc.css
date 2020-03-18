@@ -232,6 +232,11 @@ li i {
 
 @media all and (max-width:968px)
 {
+    body
+    {
+        width: auto;
+        height: auto;
+    }
     #contenair
     {
         display: inline-block;
