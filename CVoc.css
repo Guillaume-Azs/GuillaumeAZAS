@@ -259,7 +259,7 @@ li i {
     #imgplaisir
     {
         border-radius: 100%;
-       padding: 10% 10% 10% 10%
+       padding: 7% 7% 7% 7%
     }
     #info p
     {
@@ -304,7 +304,7 @@ li i {
     .formation2
     {
     padding-left: O;
-        margin-left: 11%;
+        margin-left: 13%;
         margin-top: 0;
     }
     .formation3, .entraineur2, .entraineur3
@@ -316,7 +316,7 @@ li i {
     .entraineur1
     {
         padding-left: 0;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: 0.5%
     }
     .premier, .second
