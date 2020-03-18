@@ -241,7 +241,7 @@ li i {
     {
         width: auto;
         height: auto;
-        font-size: 200%;
+        font-size: 130%;
     }
     #contenair
     {
@@ -272,11 +272,37 @@ li i {
     }
     #diplome h3
     {
-        font-size: 180%;
+        font-size: 160%;
         margin-bottom: 10%;
     }
     .udemy, .creps, .open, .educ, .anim, .educa
     {
-        font-size: 200%;
+        font-size: 130%;
+    }
+    .date, .montrejeau, .saint-gau, .st-gau
+    {
+        margin-right: 8%;
+        padding-left: 3%
+    }
+    .entraineur2
+    {
+        margin-left: 3%
+    }
+    .entraineur3
+    {
+        margin-left: 2%
+    }
+    .formation2
+    {
+        margin-left: 7%
+    }
+    .formation3
+    {
+        padding-left: 4%
+    }
+    .premier, .second
+    {
+        margin-right: 8%;
+        font-size: 130%
     }
 }
