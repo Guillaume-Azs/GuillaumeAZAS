@@ -277,7 +277,7 @@ li i {
     }
     .udemy, .creps, .open, .educ, .anim, .educa
     {
-        font-size: 130%;
+        font-size: 110%;
     }
     .date, .montrejeau, .saint-gau, .st-gau
     {
@@ -286,11 +286,11 @@ li i {
     }
     .entraineur2
     {
-        margin-left: 3%
+        margin-left: 6.5%
     }
     .entraineur3
     {
-        margin-left: 2%
+        margin-left: 6.5%
     }
     .formation2
     {
@@ -298,11 +298,11 @@ li i {
     }
     .formation3
     {
-        padding-left: 4%
+        padding-left: 2.5%
     }
     .premier, .second
     {
-        margin-right: 1%;
-        font-size: 130%
+        margin-right: 10%;
+        font-size: 150%
     }
 }
