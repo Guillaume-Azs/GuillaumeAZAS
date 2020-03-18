@@ -243,7 +243,7 @@ li i {
     {
         width: 0;
         height: 5000px;
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .titre h3
     {
@@ -265,7 +265,7 @@ li i {
         position: absolute;
         margin-top: 450px;
         width: 1000px;
-        height: 4000px;
+        height: 3000px;
     }
      .information
     {
@@ -286,7 +286,7 @@ li i {
         width: 1000px;
         position: absolute;
         background-color: #396882;
-        height: 4000px;
+        height: 5000px;
     }
     .loisir
     {
@@ -296,6 +296,7 @@ li i {
     #info h3
     {
         border-bottom: 2px solid black;
+        font-size: 1.5em;
     }
     .moi h3, .loisir h3
     {
@@ -314,6 +315,20 @@ li i {
     {
         text-align: center;
     }
+    #diplome h3
+    {
+        font-size: 1.5em;
+        margin-bottom: 100px
+    }
+    .date, .montrejeau, .saint-gau, .st-gau
+    {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    .educ, .educa, .anim, .creps, .udemy, .open
+    {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 1024px)
@@ -325,10 +340,6 @@ li i {
     #diplome
     {
         width: 1000px;
-    }
-    .titre h1
-    {
-        font-size: 40px
     }
     .titre h3
     {
