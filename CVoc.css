@@ -259,7 +259,7 @@ li i {
     #imgplaisir
     {
         border-radius: 100%;
-        padding: 5%;
+        padding: 7%;
     }
     #info p
     {
@@ -281,8 +281,12 @@ li i {
     }
     .date, .montrejeau, .saint-gau, .st-gau
     {
-        margin-right: 12%;
-        padding-left: 5%
+        margin: 0;
+        padding-right: 0
+    }
+    .entraineur1
+    {
+        margin-left: 4%
     }
     .entraineur2
     {
@@ -292,17 +296,32 @@ li i {
     {
         margin-left: 6.5%
     }
+    .formation1
+    {
+        margin-left: 13.5%
+    }
     .formation2
     {
-    padding-left: 1.5%
+    padding-left: O;
+        margin-left: 10%
     }
-    .formation3
+    .formation2, .formation3, .entraineur2, .entraineur3
     {
-        padding-left: 2.5%
+        padding-left: 0;
+        margin-left: 14%
+    }
+    .entraineur1
+    {
+        padding-left: 0;
+        margin-left: 11.5%;
     }
     .premier, .second
     {
         margin-right: 10%;
         font-size: 150%
+    }
+   li i
+    {
+        margin-top: 2.5%
     }
 }
