@@ -272,7 +272,7 @@ li i {
     }
     #diplome h3
     {
-        font-size: 160%;
+        font-size: 130%;
         margin-bottom: 10%;
     }
     .udemy, .creps, .open, .educ, .anim, .educa
@@ -281,8 +281,8 @@ li i {
     }
     .date, .montrejeau, .saint-gau, .st-gau
     {
-        margin-right: 8%;
-        padding-left: 3%
+        margin-right: 12%;
+        padding-left: 5%
     }
     .entraineur2
     {
@@ -294,7 +294,7 @@ li i {
     }
     .formation2
     {
-        margin-left: 7%
+    padding-left: 1.5%
     }
     .formation3
     {
@@ -302,7 +302,7 @@ li i {
     }
     .premier, .second
     {
-        margin-right: 8%;
+        margin-right: 1%;
         font-size: 130%
     }
 }
