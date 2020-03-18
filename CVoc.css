@@ -235,19 +235,17 @@ li i {
     .me
     {
         width: 30%;
-        height: 10%;
-        margin-top: 20px;
-        margin-right: 40px;
+        height: 6%;
+        margin-top: 5%;
     }
     body
     {
         width: 0;
-        height: 5000px;
         font-size: 2em;
     }
     .titre h3
     {
-        margin-right: 260px;
+        margin-right: 270px;
         text-align: center;
     }
     .titre h1
@@ -256,7 +254,7 @@ li i {
         margin-left: 5px;
         text-align: center;
         margin-right: 40px;
-        font-size: 4em;
+        font-size: 2.5em;
     }
     #diplome
     {
@@ -264,12 +262,12 @@ li i {
         position: absolute;
         margin-top: 450px;
         width: 1000px;
-        height: 3200px;
+        height: 390%;
     }
      .information
     {
         background-color: #396882;
-        margin-top: 325%;
+        margin-top: 300%;
     }
     #contenair
     {
@@ -285,7 +283,7 @@ li i {
         width: 1000px;
         position: absolute;
         background-color: #396882;
-        height: 5000px;
+        height: 700%;
     }
     .loisir
     {
@@ -303,12 +301,22 @@ li i {
     }
    .premier
     {
-        margin-right: 250px;
+        margin-right: 10%;
+    }
+    .entraineur1
+    {
+        margin-top: 2%;
+        margin-bottom: 2%
     }
     .entraineur3
     {
-        padding-left: 0px;
-        margin-left: 20px;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .entraineur2
+    {
+        margin-left: 3%;
+        margin-top: 1%;
     }
     #info p
     {
@@ -316,17 +324,33 @@ li i {
     }
     #diplome h3
     {
-        font-size: 1.8em;
-        margin-bottom: 100px
+        font-size: 1.3em;
+        margin-bottom: 15%
     }
     .date, .montrejeau, .saint-gau, .st-gau
     {
-        margin-right: 50px;
-        margin-left: 0px;
+        margin-right: 5%;
+        margin-left: 0;
     }
     .educ, .educa, .anim, .creps, .udemy, .open
     {
         font-size: 1.5em;
+    }
+    .premier, .second
+    {
+        font-size: 1.1em
+    }
+    .formation2
+    {
+        margin-left: 4%;
+    }
+    .formation3
+    {
+        padding-left: 0;
+    }
+    .formation1, .formation2, .formation3
+    {
+        margin-top: 0.5%
     }
 }
 
