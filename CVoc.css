@@ -236,6 +236,7 @@ li i {
     {
         width: auto;
         height: auto;
+        font-size: 150%;
     }
     #contenair
     {
@@ -249,5 +250,19 @@ li i {
     .loisir
     {
         margin-top: 0;
+    }
+    #imgplaisir
+    {
+        border-radius: 100%;
+        padding: 5%;
+    }
+    #info p
+    {
+        text-align: center;
+        margin-left: 5px;
+    }
+    h3
+    {
+        font-size: 150%;
     }
 }
