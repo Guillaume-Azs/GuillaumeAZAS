@@ -232,11 +232,16 @@ li i {
 
 @media all and (min-width:474px) and (max-width:1300px)
 {
+    .me
+    {
+        width: 30%;
+        height: 5%
+    }
     body
     {
         width: auto;
         height: auto;
-        font-size: 150%;
+        font-size: 200%;
     }
     #contenair
     {
@@ -263,6 +268,15 @@ li i {
     }
     h3
     {
-        font-size: 150%;
+        font-size: 200%;
+    }
+    #diplome h3
+    {
+        font-size: 180%;
+        margin-bottom: 10%;
+    }
+    .udemy, .creps, .open, .educ, .anim, .educa
+    {
+        font-size: 200%;
     }
 }
