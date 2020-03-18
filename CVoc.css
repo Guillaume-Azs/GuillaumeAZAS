@@ -298,22 +298,26 @@ li i {
     }
     .formation1
     {
-        margin-left: 13.5%
+        margin-left: 13.5%;
+        margin-top: 0;
     }
     .formation2
     {
     padding-left: O;
         margin-left: 11%;
+        margin-top: 0;
     }
     .formation3, .entraineur2, .entraineur3
     {
         padding-left: 0;
-        margin-left: 14%
+        margin-left: 14%;
+        margin-top: 0.5%
     }
     .entraineur1
     {
         padding-left: 0;
         margin-left: 13%;
+        margin-top: 0.5%
     }
     .premier, .second
     {
