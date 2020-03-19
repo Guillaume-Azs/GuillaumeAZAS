@@ -298,12 +298,13 @@ li i {
     {
         margin-top: 1%;
         margin-bottom: 15%;
-        font-size: 120%
+        font-size: 100%;
+        margin-left: 2%
     }
     .entraineur1
     {
         margin-left: 4%;
-        font-size: 150%;
+        font-size: 120%;
     }
     .entraineur2
     {
@@ -317,21 +318,21 @@ li i {
     {
         margin-left: 13.5%;
         margin-top: 0;
-        font-size: 150%;
+        font-size: 120%;
     }
     .formation2
     {
     padding-left: O;
         margin-left: 12%;
         margin-top: 0;
-        font-size: 150%
+        font-size: 120%
     }
     .formation3, .entraineur2, .entraineur3
     {
         padding-left: 0;
         margin-left: 14%;
         margin-top: 0.5%;
-        font-size: 150%
+        font-size: 120%
     }
     .entraineur1
     {
