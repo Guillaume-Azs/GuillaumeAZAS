@@ -86,11 +86,6 @@ body {
     margin-top: 110%;
 }
 
-#info h1, .dev
-{
-    display: none;
-}
-
 /* DROITE */
 
 h1 {
@@ -305,14 +300,13 @@ li i {
     {
         margin-left: 4%;
         font-size: 110%;
+        padding-left: 0;
+        margin-left: 11%;
+        margin-top: 0.5%
     }
-    .entraineur2
+    .entraineur2, .entraineur3
     {
         margin-left: 6.5%
-    }
-    .entraineur3
-    {
-        margin-left: 6.5%;
     }
     .formation1
     {
@@ -333,12 +327,6 @@ li i {
         margin-left: 14%;
         margin-top: 0.5%;
         font-size: 110%
-    }
-    .entraineur1
-    {
-        padding-left: 0;
-        margin-left: 11%;
-        margin-top: 0.5%
     }
     .premier, .second
     {
