@@ -273,7 +273,7 @@ li i {
     #imgplaisir
     {
         border-radius: 100%;
-       padding: 7% 7% 7% 7%
+       padding: 9% 11% 9% 9%;
     }
     #info p
     {
@@ -304,7 +304,7 @@ li i {
     .entraineur1
     {
         margin-left: 4%;
-        font-size: 120%;
+        font-size: 110%;
     }
     .entraineur2
     {
@@ -318,21 +318,21 @@ li i {
     {
         margin-left: 15%;
         margin-top: 0;
-        font-size: 120%;
+        font-size: 110%;
     }
     .formation2
     {
     padding-left: O;
         margin-left: 15.5%;
         margin-top: 0;
-        font-size: 120%
+        font-size: 110%
     }
     .formation3, .entraineur2, .entraineur3
     {
         padding-left: 0;
         margin-left: 14%;
         margin-top: 0.5%;
-        font-size: 120%
+        font-size: 110%
     }
     .entraineur1
     {
