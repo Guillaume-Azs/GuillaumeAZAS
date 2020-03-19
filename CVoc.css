@@ -296,8 +296,8 @@ li i {
     }
     .date, .montrejeau, .saint-gau, .st-gau
     {
-        margin: 0;
-        padding-right: 0
+        margin-top: 1%;
+        margin-bottom: 25%
     }
     .entraineur1
     {
@@ -309,7 +309,7 @@ li i {
     }
     .entraineur3
     {
-        margin-left: 6.5%
+        margin-left: 6.5%;
     }
     .formation1
     {
@@ -319,7 +319,7 @@ li i {
     .formation2
     {
     padding-left: O;
-        margin-left: 11%;
+        margin-left: 15%;
         margin-top: 0;
     }
     .formation3, .entraineur2, .entraineur3
@@ -331,7 +331,7 @@ li i {
     .entraineur1
     {
         padding-left: 0;
-        margin-left: 13%;
+        margin-left: 10%;
         margin-top: 0.5%
     }
     .premier, .second
