@@ -5,6 +5,10 @@ body {
     color: antiquewhite;
     background-color: darkslategrey;
 }
+.titre2
+{
+    display: none;
+}
 
 #diplome,
 #info {
@@ -62,6 +66,8 @@ body {
 }
 
 #info h3 {
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: antiquewhite;
     color: #396882;
     font-family: 'open sans';
@@ -232,6 +238,14 @@ li i {
 
 @media all and (min-width:474px) and (max-width:1300px)
 {
+    .titre
+    {
+        display: none;
+    }
+    .titre2
+    {
+        display: block;
+    }
     .me
     {
         width: 30%;
@@ -269,6 +283,7 @@ li i {
     h3
     {
         font-size: 200%;
+        margin-top: 7%;
     }
     #diplome h3
     {
@@ -304,7 +319,7 @@ li i {
     .formation2
     {
     padding-left: O;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: 0;
     }
     .formation3, .entraineur2, .entraineur3
@@ -316,7 +331,7 @@ li i {
     .entraineur1
     {
         padding-left: 0;
-        margin-left: 11%;
+        margin-left: 13%;
         margin-top: 0.5%
     }
     .premier, .second
@@ -327,5 +342,32 @@ li i {
    li i
     {
         margin-top: 2.5%
+    }
+    .azas
+    {
+        color: #4a4a4a;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    .ligne2
+    {
+        font-size: 120%;
+        font-weight: normal;
+    }
+    .dev2
+    {
+        color: #4a4a4a;
+        font-weight: normal;
+        border-bottom: 1px solid #396882;
+    }
+    .reste
+    {
+        color: #4a4a4a;
+        font-weight: normal;
+    }
+    .gui
+    {
+        font-size: 120%;
+        font-weight: normal;
     }
 }
