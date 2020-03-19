@@ -299,7 +299,7 @@ li i {
         margin-top: 1%;
         margin-bottom: 15%;
         font-size: 100%;
-        margin-left: 2%
+        margin-left: 4%
     }
     .entraineur1
     {
@@ -316,14 +316,14 @@ li i {
     }
     .formation1
     {
-        margin-left: 13.5%;
+        margin-left: 15%;
         margin-top: 0;
         font-size: 120%;
     }
     .formation2
     {
     padding-left: O;
-        margin-left: 12%;
+        margin-left: 14%;
         margin-top: 0;
         font-size: 120%
     }
@@ -337,7 +337,7 @@ li i {
     .entraineur1
     {
         padding-left: 0;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: 0.5%
     }
     .premier, .second
