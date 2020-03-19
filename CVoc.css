@@ -1,5 +1,5 @@
 /* GENERAL */
-.none {
+.none, .titre2 {
     display: none;
 }
 
@@ -7,10 +7,6 @@ body {
     font-family: 'nimbus sans L';
     color: antiquewhite;
     background-color: darkslategrey;
-}
-
-.titre2 {
-    display: none;
 }
 
 #diplome,
@@ -44,21 +40,7 @@ body {
     margin-top: 5%;
 }
 
-#imgplaisir1 {
-    border: 3px solid white;
-    border-radius: 100%;
-    padding: 3%;
-    margin-bottom: 2%;
-}
-
-#imgplaisir2 {
-    border: 3px solid white;
-    border-radius: 100%;
-    padding: 3%;
-    margin-bottom: 2%;
-}
-
-#imgplaisir3 {
+#fas1 {
     border: 3px solid white;
     border-radius: 100%;
     padding: 3%;
