@@ -7,7 +7,7 @@ body {
     font-family: 'roboto light';
     color: antiquewhite;
     background-color: darkslategrey;
-    font-size: 130%
+    font-size: 115%
 }
 
 #diplome,
@@ -15,17 +15,6 @@ body {
     background-color: antiquewhite;
     color: #4a4a4a;
 }
-
-#diplome {
-    border: 2px solid black;
-}
-
-#info {
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-}
-
 #info p {
     color: antiquewhite;
 }
@@ -73,8 +62,6 @@ body {
     background-color: antiquewhite;
     color: #396882;
     font-family: 'roboto';
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
 }
 
 #info p {
@@ -84,7 +71,7 @@ body {
 }
 
 .loisir {
-    margin-top: 110%;
+    margin-top: 150%;
 }
 
 /* DROITE */
@@ -138,12 +125,12 @@ i {
     text-align: justify;
     padding-right: 100px;
     margin-top: 23px;
-    margin-left: 11.5px;
+    margin-left: 8px;
     padding-left: 37px;
 }
 
 .formation2 {
-    margin-left: 50px;
+    margin-left: 47px;
     padding-top: 10px;
     padding-right: 70px
 }
@@ -184,7 +171,7 @@ i {
     color: #4a4a4a;
     margin-top: 25px;
     padding-right: 20px;
-    margin-right: 20px
+    margin-right: 27px
 }
 
 .montrejeau{
@@ -216,7 +203,7 @@ i {
 .udemy,
 .open {
     font-weight: bold;
-    font-size: 120%;
+    font-size: 115%;
     color: #396882;
     margin-top: 55px;
     font-family: 'roboto light';
@@ -235,6 +222,7 @@ ul {
     font-size: 22px;
     font-family: 'roboto';
     margin-top: 7%;
+    font-size: 115%
 }
 .premier {
     margin-top: 50px;
@@ -262,129 +250,42 @@ li i {
 }
 
 /* RESPONSIVE */
-
-@media all and (min-width:474px) and (max-width:1300px) {
-    .titre {
-        display: none;
-    }
-
-    .titre2 {
+@media screen and (max-width:700px)
+{
+    .titre2
+    {
         display: block;
     }
-
-    body {
-        width: auto;
-        height: auto;
-        font-size: 130%;
-    }
-
-    #contenair {
-        display: inline-block;
-    }
-
-    #info {
-        width: auto;
-        height: auto;
-    }
-
-    .loisir {
-        margin-top: 0;
-    }
-
-    #fas1 {
-        border-radius: 100%;
-        padding: 5% 5.5% 5% 5%;
-    }
-    #info p {
+    #info p
+    {
         text-align: center;
-        margin-left: 5px;
     }
-
-    h3 {
-        font-size: 200%;
-        margin-top: 7%;
+    #contenair
+    {
+        display: inline-block;
+        width: auto;
     }
-
-    #diplome h3 {
-        font-size: 130%;
-        margin-bottom: 10%;
+    #info
+    {
+        width: auto;
     }
-
-    .udemy,
-    .creps,
-    .open,
-    .educ,
-    .anim,
-    .educa {
-        font-size: 110%;
-    }
-
-    .date,
-    .montrejeau,
-    .saint-gau,
-    .st-gau {
-        margin-top: 1%;
-        margin-bottom: 15%;
-        font-size: 100%;
-        margin-left: 4%;
-        margin-right: 7%;
-    }
-
-    .entraineur1 {
-        margin-left: 4%;
-        font-size: 110%;
-        padding-left: 0;
-        margin-left: 11%;
-        margin-top: 0.5%
-    }
-
-    .entraineur2,
-    .entraineur3 {
-        margin-left: 6.5%
-    }
-
-    .formation1 {
-        margin-left: 15%;
+    .loisir
+    {
         margin-top: 0;
-        font-size: 110%;
     }
-
-    .formation2 {
-        margin-left: 14.5%;
-        margin-top: 0;
-        font-size: 110%
+    .titre
+    {
+        display: none;
     }
-
-    .formation3,
-    .entraineur2,
-    .entraineur3 {
-        padding-left: 0;
-        margin-left: 14%;
-        margin-top: 0.5%;
-        font-size: 110%
-    }
-
-    .premier,
-    .second {
-        margin-right: 10%;
-        font-size: 150%
-    }
-
-    li i {
-        margin-top: 2.5%
-    }
-
     .azas {
         color: #4a4a4a;
         font-size: 120%;
         font-weight: normal;
     }
-
     .ligne2 {
         font-size: 120%;
         font-weight: normal;
     }
-
     .dev2 {
         color: #4a4a4a;
         font-weight: normal;
@@ -399,5 +300,18 @@ li i {
     .gui {
         font-size: 120%;
         font-weight: normal;
+    }
+    .formation2
+    {
+        margin-left: 13%
+    }
+    .premier
+    {
+        margin-right: 3%
+    }
+    .formation h3
+    {
+        margin-top: 0;
+        padding-top: 8%;
     }
 }
