@@ -38,6 +38,22 @@ body {
     margin-right: 7%;
     margin-left: 3%
 }
+#fas2 {
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 2.5%;
+    margin-bottom: 2%;
+    margin-right: 7%;
+    margin-left: 3%
+}
+#fas3 {
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 2.5%;
+    margin-bottom: 2%;
+    margin-right: 7%;
+    margin-left: 3%
+}
 
 #info {
     width: 32%;
@@ -245,7 +261,7 @@ ul {
 }
 
 .recommand {
-    margin-top: 1O%;
+    margin-top: 1%;
     margin-bottom: 30px;
     display: flex;
 }
