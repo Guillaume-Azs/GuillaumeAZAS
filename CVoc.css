@@ -5,15 +5,14 @@
 
 body {
     font-family: 'roboto light';
-    color: antiquewhite;
-    background-color: darkslategrey;
+    background-color: #212121;
     font-size: 115%
 }
 
 #diplome,
 #info {
     background-color: antiquewhite;
-    color: #4a4a4a;
+    color: #424242;
 }
 #info p {
     color: antiquewhite;
@@ -40,7 +39,7 @@ body {
 
 #info {
     width: 32%;
-    background-color: #396882;
+    background-color: #006064;
     text-align: justify;
     text-align: center;
 }
@@ -60,7 +59,7 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: antiquewhite;
-    color: #396882;
+    color: #006064;
     font-family: 'roboto';
 }
 
@@ -84,7 +83,7 @@ h2 {
 }
 
 span {
-    color: #396882;
+    color: #006064;
 }
 
 .nom {
@@ -101,8 +100,8 @@ span {
 }
 
 .ligne {
-    border-bottom: 2px solid #396882;
-    color: #4a4a4a;
+    border-bottom: 2px solid #006064;
+    color: #424242;
 }
 
 #diplome li {
@@ -153,14 +152,14 @@ i {
 .date1 {
     font-weight: bold;
     margin-bottom: 50px;
-    color: #4a4a4a;
+    color: #424242;
     margin-top: 25px;
     padding-right: 46px;
 }
 .date2 {
     font-weight: bold;
     margin-bottom: 50px;
-    color: #4a4a4a;
+    color: #424242;
     margin-top: 25px;
     padding-right: 17px;
     margin-right: 37px;
@@ -168,7 +167,7 @@ i {
 .date3 {
     font-weight: bold;
     margin-bottom: 50px;
-    color: #4a4a4a;
+    color: #424242;
     margin-top: 25px;
     padding-right: 20px;
     margin-right: 27px
@@ -178,21 +177,21 @@ i {
     font-weight: bold;
     margin-right: 40px;
     margin-bottom: 60px;
-    color: #4a4a4a;
+    color: #424242;
     margin-top: 24px
 }
 .saint-gau{
     font-weight: bold;
     margin-right: 65px;
     margin-bottom: 60px;
-    color: #4a4a4a;
+    color: #424242;
     margin-top: 24px
 }
 .st-gau{
     font-weight: bold;
     margin-right: 50px;
     margin-bottom: 60px;
-    color: #4a4a4a;
+    color: #424242;
     margin-top: 24px
 }
 
@@ -204,8 +203,8 @@ i {
 .open {
     font-weight: bold;
     font-size: 115%;
-    color: #396882;
-    margin-top: 55px;
+    color: #006064;
+    margin-top: 50px;
     font-family: 'roboto light';
 }
 
@@ -216,7 +215,7 @@ ul {
 .formation h3,
 .experience h3,
 .recommandation h3 {
-    border-bottom: 2px solid #396882;
+    border-bottom: 2px solid #006064;
     margin-right: 40px;
     margin-left: 40px;
     font-size: 22px;
@@ -227,13 +226,13 @@ ul {
 .premier {
     margin-top: 50px;
     margin-left: 50px;
-    color: #396882;
+    color: #006064;
     margin-right: 35%;
 }
 
 .second {
     margin-left: 40px;
-    color: #396882;
+    color: #006064;
     margin-top: 0;
     padding-top: 50px
 }
