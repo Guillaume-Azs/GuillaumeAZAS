@@ -4,9 +4,10 @@
 }
 
 body {
-    font-family: 'nimbus sans L';
+    font-family: 'roboto light';
     color: antiquewhite;
     background-color: darkslategrey;
+    font-size: 130%
 }
 
 #diplome,
@@ -36,15 +37,16 @@ body {
 .icones {
     font-size: 2em;
     color: white;
-    margin-left: 16px;
     margin-top: 5%;
 }
 
 #fas1 {
     border: 3px solid white;
     border-radius: 100%;
-    padding: 3%;
+    padding: 2.5%;
     margin-bottom: 2%;
+    margin-right: 7%;
+    margin-left: 3%
 }
 
 #info {
@@ -70,7 +72,7 @@ body {
     padding-bottom: 1%;
     background-color: antiquewhite;
     color: #396882;
-    font-family: 'open sans';
+    font-family: 'roboto';
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
@@ -161,19 +163,47 @@ i {
     margin-left: 10px;
 }
 
-.date {
+.date1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #4a4a4a;
+    margin-top: 25px;
+    padding-right: 46px;
+}
+.date2 {
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #4a4a4a;
+    margin-top: 25px;
+    padding-right: 17px;
+    margin-right: 37px;
+}
+.date3 {
     font-weight: bold;
     margin-bottom: 50px;
     color: #4a4a4a;
     margin-top: 25px;
     padding-right: 20px;
+    margin-right: 20px
 }
 
-.montrejeau,
-.saint-gau,
-.st-gau {
+.montrejeau{
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    color: #4a4a4a;
+    margin-top: 24px
+}
+.saint-gau{
+    font-weight: bold;
+    margin-right: 65px;
+    margin-bottom: 60px;
+    color: #4a4a4a;
+    margin-top: 24px
+}
+.st-gau{
+    font-weight: bold;
+    margin-right: 50px;
     margin-bottom: 60px;
     color: #4a4a4a;
     margin-top: 24px
@@ -186,9 +216,10 @@ i {
 .udemy,
 .open {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 120%;
     color: #396882;
-    margin-top: 45px;
+    margin-top: 55px;
+    font-family: 'roboto light';
 }
 
 ul {
@@ -202,8 +233,9 @@ ul {
     margin-right: 40px;
     margin-left: 40px;
     font-size: 22px;
+    font-family: 'roboto';
+    margin-top: 7%;
 }
-
 .premier {
     margin-top: 50px;
     margin-left: 50px;
@@ -219,6 +251,7 @@ ul {
 }
 
 .recommand {
+    margin-top: 1O%;
     margin-bottom: 30px;
     display: flex;
 }
@@ -258,21 +291,10 @@ li i {
         margin-top: 0;
     }
 
-    #imgplaisir1 {
+    #fas1 {
         border-radius: 100%;
-        padding: 9% 9% 9% 9%;
+        padding: 5% 5.5% 5% 5%;
     }
-
-    #imgplaisir2 {
-        border-radius: 100%;
-        padding: 9% 9% 9% 9%;
-    }
-
-    #imgplaisir3 {
-        border-radius: 100%;
-        padding: 9% 9% 9% 9%;
-    }
-
     #info p {
         text-align: center;
         margin-left: 5px;
