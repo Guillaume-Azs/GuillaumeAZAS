@@ -30,23 +30,7 @@ body {
     margin-top: 5%;
 }
 
-#fas1 {
-    border: 3px solid white;
-    border-radius: 100%;
-    padding: 2.5%;
-    margin-bottom: 2%;
-    margin-right: 7%;
-    margin-left: 3%
-}
-#fas2 {
-    border: 3px solid white;
-    border-radius: 100%;
-    padding: 2.5%;
-    margin-bottom: 2%;
-    margin-right: 7%;
-    margin-left: 3%
-}
-#fas3 {
+#fas1, #fas2, #fas3 {
     border: 3px solid white;
     border-radius: 100%;
     padding: 2.5%;
